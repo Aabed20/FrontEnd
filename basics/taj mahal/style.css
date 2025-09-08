@@ -1,0 +1,61 @@
+.text{
+    font-size: 40px;
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: linear-gradient(45deg, #d90e0e, #1fd9cd, #45b7d1, #09dc79, #d6ab4f, #ff9ff3, #54a0ff);
+            background-size: 400% 400%;
+            background-clip: text;
+            color: transparent;      
+}
+.fls{
+width: 100%;
+padding-right: 0;
+text-align: justify;
+border: 10px solid #f1d4d4;
+border-radius: 10px;
+background-image: url('./taj2.jpg');
+background-size:cover;
+background-position:left;
+background-repeat: no-repeat;
+}
+.lg{
+    border-radius: 10px;
+    background-color: rgb(138, 187, 255);
+}
+label{
+    font-weight: 20px;
+    font-size: 20px;
+    background: linear-gradient(rgb(10, 31, 134));
+    background-size: 200% 200%;
+    background-clip: text;
+    color: transparent;
+}
+.btn{
+    background: linear-gradient(90deg, orange,white,green);}
+.video-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.fra {
+    max-width: 100%;         /* Ensure the iframe is responsive */
+    height: 400px;            /* Keep the aspect ratio */
+}
+h2{
+    text-align: center;
+    background: linear-gradient(45deg, blue,aqua );
+    background-clip: text;
+    background-size: 20px,200px;
+    color: transparent;
+}
+h1{
+     background: linear-gradient(45deg, blue,aqua );
+    background-clip: text;
+    background-size: 20px,200px;
+    color: transparent;
+}
+img{
+    border: 8px solid #a9c1f4;
+    background-color: #1fd9cd;
+}

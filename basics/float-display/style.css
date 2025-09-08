@@ -1,0 +1,19 @@
+body{
+    margin-top: 0;
+  
+}
+img{
+    height: 100px;
+    float: right;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-size: 48px;
+    color: white;
+    display: inline-block;
+}
+.div2{
+    visibility: hidden;
+}

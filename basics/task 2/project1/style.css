@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+.container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(245, 213, 240) ;
+}
+.sub{
+    font-family: young serif;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-color: white;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+}       
+.img1 {
+    background-image: url("../images/image-omelette.jpeg");
+    background-size: cover;   /* fill the box */
+    background-position: center; /* keep it centered */
+    background-repeat: no-repeat;
+    width: 100%;       /* take full width of parent */
+    height: 250px;     /* fixed height for nice proportion */
+    border-radius: 20px;
+    margin-bottom: 20px;
+    object-fit: cover; /* ensures proper scaling */
+}
+
+h2,h3{
+    color: brown;
+}
+.sub{
+    padding: 20px;
+}
+table{
+    border:none;
+    width: 100%;
+}
+table, th, td {
+    
+    padding: 8px;
+    text-align: center;
+}
+.cal{
+    color: brown;
+}
+ol li::marker{
+    color: brown;
+}

@@ -1,0 +1,71 @@
+.border1{
+    border: 2px solid rgb(146, 113, 230);
+    padding: 15px;
+    margin: 2px;
+}
+.content1{
+    font-family: 'Times New Roman', Times, serif,;
+    font-size: 16px;
+    color: crimson;
+}
+.content2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: blue;
+}
+.content3{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: green;
+}
+.content4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: darkorange;
+}
+.content5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: indigo;
+}
+.border2{
+    border: 2px dashed red;
+    padding: 15px;
+    margin: 2px;
+}
+.border3{
+    border: 2px dotted green;
+    padding: 15px;
+    margin: 2px;
+}
+.border4{
+    border: 2px double orange;
+    padding: 15px;
+    margin: 2px;
+}
+.border5{
+    border: 2px groove indigo;
+    padding: 15px;
+    margin: 2px;
+}
+.border6{
+    font-style: italic;
+    padding: 5px;
+    margin: 2px;
+}
+.bg{
+    background-color: lightblue;
+    padding: 15px;
+    margin: 2px;
+}
+.bg2{
+    background-color: lightgreen;
+    padding: 15px;
+    margin: 2px;
+}
+.bg3{
+    text-transform: uppercase;
+    background-color: lightcoral;
+    padding: 15px;
+    margin: 2px;
+}

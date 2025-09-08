@@ -1,0 +1,53 @@
+Grid : grid is a modern responsive css layout which is used to display items / elements in two dimensional way (row & column) in web page. 
+  parent properties:
+      display : grid --- it is used to make the container grid and it fits all its child items as a single columns .
+      grid-template-columns : its is used to specify individual columns width 
+        grid-template-columns -- 100px 50px 200px; creates 3 columns of respective widths.
+        grid-template-columns -- 20% 50% 30%; creates 3 columns of respective percentages.
+        grid-template-columns -- 1fr 2fr 3fr; divides into 3 columns of respective fractions.
+        we can also specify repeat(n,x) where n is no of time to repeat x value.
+
+     grid-template-rows --- it is used to specify each rows height similarly grid-template-columns
+     gap --- it is used to provide gap between the items . we can also specify row-gap and column-gap
+     justify-content --- it is used to move items along row 
+     align-content --- it is used to move items along column 
+
+   Child properties :
+       we need to divide and understand grid as grid tracks (grid row line and column lines)
+       grid-column-start : starting column line number
+       grid-column-end : ending column line number
+       grid-column : grid-column-start/grid-column-end;
+       grid-row-start: starting row line number
+       grid-row-end : ending row line number
+       grid-row : grid-row-start/grid-row-end;
+       grid-area : grid-row-start/grid-column-start/grid-row-end/grid-column-end;
+       order : by default every element order is 0 and elements arranged according to the increasing order
+
+  Media queries : Media queries are used for responsiveness of the website. we can make the styles (css) works for specific widths. 
+    eg:
+      large devices --- >=1400px
+      laptops     ----->=1280px to 1400px
+      desktop     ----->=1080px to 1280px
+      tablets     ----->=768px to <1080px
+      mobiles(landscape) -->= 576px to <768px
+      mobiles(portrait) --- 0 to <576px
+
+   Best Approach for web design is mobile first design (MFD)
+
+      @media (min-width:1280px) and (max-width:1480px){
+        /* laptops */
+      }         
+
+  Animations :
+    Animations are used to make a element goes through multiple states . Every Animation contains folowing properties such as 
+      Animation-name : name of the Animation
+      Animation-duration : time of the Animation(in seconds)
+      Animation-timing-function : controls the speed of Animation(ease/ease-in/ease-out/ease-in-out/linear)
+      Animation-iteration-count  : number of times Animation repeats (number or infinite)
+      Animation-direction : decides which direction Animation should run (normal/reverse/alternate/alternate-reverse)
+      Animation-delay : time to delay the Animation (in seconds)
+
+     We can use websites like "lottifiles" or "animista" for Animations.     
+
+
+          

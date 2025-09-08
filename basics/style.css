@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(89, 228, 131);
+    background-image: linear-gradient( orange,white,green);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    /* color: rgb(31, 197, 197); */
+   color: rgb(192, 52, 171);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+   font-style: italic;
+   font-size: 60px;
+}
+.div1{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+.div2{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}

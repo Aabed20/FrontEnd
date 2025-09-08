@@ -1,0 +1,42 @@
+/* Apply gradient background for page */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Common box style */
+.box, .grad {
+  width: 350px;
+  height: 150px;
+  margin: 10px auto;
+  padding: 0px;
+  border-radius: 10px;
+  line-height: 40px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Border styles */
+.solid { border: 3px solid lightblue; }
+.dotted { border: 3px dotted #000; }
+.dashed { border: 3px dashed #000; }
+.double { border: 3px double #000; }
+.groove { border: 4px groove #555; }
+.ridge  { border: 4px ridge #555; }
+.inset  { border: 8px inset #555; }
+.outset { border: 8px outset #555; }
+.none   { border: none; }
+.hidden { border: hidden; }
+
+/* Gradient demo boxes */
+.grad.linear {
+  background: linear-gradient(to right, orange, pink);
+  color: #fff;
+}
+
+.grad.radial {
+  background: radial-gradient(circle, lightblue, darkblue);
+  color: #fff;
+}
