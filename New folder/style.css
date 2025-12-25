@@ -1,0 +1,9 @@
+@font-face {
+    font-family: PathanFont;
+    src: url('./Young\ RIEHUM\ Trial.ttf');
+}
+h4{
+    font-family: PathanFont;
+    letter-spacing: 2px;
+    
+}

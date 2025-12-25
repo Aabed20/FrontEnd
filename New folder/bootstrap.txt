@@ -1,0 +1,24 @@
+Bootstrap : Bootstrap is a CSS library which is used to build production ready website including responsivness . It provides CSS and JS links.
+A library is nothing but a pre written code used for specific purpose.
+We can access Bootstrap through CDN (Content Delivery Network) Links and the official version of Bootstrap is Bootstrap5
+Website : https://getbootstrap.com
+How to start Bootstrap ?
+   step 1: goto official website and click on docs
+   step 2: goto introuction and check CSS link tags  (CDN links) and copy and paste css links into our HTML 'head'
+   step 3: Assign appropriate className and you will get its styles
+
+ Bootstrap provides class Names for css such as 
+    Border : border,border-size,border-color
+    Bootstrap size always from 0 to 5 and colors are primary (blue), secondary (grey), success (green), danger (red), dark (black), light(white), warning(yellowish orange), info(skyblue)
+
+    Border-radius : rounded, rounded-size, rounded-top,rounded-bottom, rounded-start, rounded-end, rounded-circle, rounded-pill
+
+    padding : p-size, pt-size, pb-size, ps-size, pe-size, px-size, py-size
+
+    margin : similar to padding but m instead of p (it gives space outside the box/works as margin) 
+
+    float : float-start, float-end, float-none
+    display : d-none, d-block, d-inline, d-inline-block
+    flex : d-flex, flex-direction, justify-content-start/between/end/center/around/evenly, align-items-center/start/end, 
+    gap-size
+     
